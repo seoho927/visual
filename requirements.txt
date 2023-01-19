@@ -1,0 +1,7 @@
+matplotlib
+cryptocmd
+plotly
+pandas
+numpy
+datetime
+cufflinks
