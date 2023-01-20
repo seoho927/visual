@@ -62,7 +62,7 @@ with tab3:
         data = scraper.get_dataframe()
         fig_close = px.line(data, x='Date', y=['Close'], title='가격')
         st.plotly_chart(fig_close)
-        st.markdown('### 초기 전략 PnL: 1%, 최종 전략 : 1200%')
+        st.markdown('### 초기 전략 PnL: 1%, 최종 전략 : 927%')
         df = pd.read_csv('./Yun_add.csv').drop(columns='Unnamed: 0')
         df.Yunseo=round(df.Yunseo,2).cumsum()
         df.Yunseo_proto=round(df.Yunseo_proto,2).cumsum()
